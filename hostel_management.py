@@ -178,7 +178,7 @@ style.configure('TEntry', font=('Helvetica', 12), padding=5)
 
 # ----------------- Login Screen -----------------
 def login():
-    if user_entry.get() == "Vraj" and pass_entry.get() == "vraj346":
+    if user_entry.get() == "admin" and pass_entry.get() == "admin123":
         dashboard_screen()  # Redirect to dashboard after login
     else:
         messagebox.showerror("Error", "Invalid Credentials")
